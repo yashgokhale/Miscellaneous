@@ -28,3 +28,12 @@ A bag of words driven NLP (Natural Language Processing) model was developed, whi
 ![MaxOpenRate](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/top10_openrate.jpg)
 From the sample output, for the top 10 most impactful dates with the highest open rate, we can understand that there was a general sense of topics which were of most interest to the readers which drove the high open rates - "The topics with keywords related to energy storage, chemicals and energy were most popular"
 ![MaxUnsubscribes](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/top10_unsubscribes.jpg)
+Another sample output implies that the following were the keywords in the newsletter which led to the maximum unsubscribers. A general conclusion can be drawn as follows: "The maximum unsubscribers were the ones when the newsletter spoke the most about companies and their technologies, more than industry relevant topics".
+
+#### Conclusions:
+The following bag of words model can be extended as required (to analyze top 'n' keywords in a newsletter or adding newer articles to update the dataset without any hassle).
+The prototype is capable of answering few of these questions:
+1. What link is the most popular?
+2. What topic is the most popular?
+3. What drives link clicks? (High open rate, time of the day)
+4. Topics covered
