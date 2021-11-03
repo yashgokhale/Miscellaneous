@@ -4,6 +4,12 @@
 
 This project and the subsequent codes were developed as a submission to Data Career Jumpstart Hackathon 2021. The aim of the project was to conduct exploratory data analysis for user subscription data for a newsletter, "Column" and derive insights into the best time to send the newsletter to maximize subsciber rate and to analyze which topic is the most viewed, conducted using NLP (Natural Language Processing) bag of words model.
 
+### What affects open %?
 #### Exploratary Data Analysis Plots
 ![Visualization](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Open%20Rate%20Hours.png) <br>
-The date and time of sending the newsletter was visualized and it can be observed that maximum open rate (which is the metric to be used) is the highest when the newsletter is sent out between 6 to 8 am in the morning, which gives an idea of how the readers are most active. However, no clear model could be fit into this as the data is somewhat scattered and thus, it is important to look at other variables which could affect the open rate.
+The date and time of sending the newsletter was visualized and it can be observed that maximum open rate (which is the metric to be used) is the highest when the newsletter is sent out between 6 to 8 am in the morning, which gives an idea of how the readers are most active. However, no clear model could be fit into this as the data is somewhat scattered and thus, it is important to look at other variables which could affect the open rate. This plot then prompted our team to look into other variables and see how the open rate can be maximized. In order to assess how the open rate is affected, several other variables were considered such as hour of the day, day of the week, number of links in the newsletter and number of words in the newsletter, which would influence the reader to keep on reading.
+
+#### Intuition 
+![Regression](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Opens%20Regression.png) <br>
+As confirmed by the above plot, it confirms the intuition that as the newsletter reaches a larger audience, the number of people opening the newsletter is high. This reaffirms that the newsletter is indeed having a positive impact and that, more subscribers are interested in reading the article. 
+
