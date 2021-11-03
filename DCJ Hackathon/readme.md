@@ -13,3 +13,8 @@ The date and time of sending the newsletter was visualized and it can be observe
 ![Regression](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Opens%20Regression.png) <br>
 As confirmed by the above plot, it confirms the intuition that as the newsletter reaches a larger audience, the number of people opening the newsletter is high. This reaffirms that the newsletter is indeed having a positive impact and that, more subscribers are interested in reading the article. 
 
+#### Clustering
+Another parameter of consideration is the click rate (amount of subscribers actualy clicking the link) is compared against the number of links in the newsletter. Upon plotting the two, it can be observed that two distinct clusters are formed, implying that the relationship between the number of links is not linear with the click rate. Thus, greater the number of links does not necessarily mean higher click rate. There is an optimum number of links (in combination with hour of the day, which could be 6 to 8 am, which would maximize the click rate). <br>
+![Clustering](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Clusters.png)
+
+
