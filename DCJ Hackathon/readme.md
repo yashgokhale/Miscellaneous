@@ -23,3 +23,8 @@ The most clicked links of all the newsletters sent out till date is displayed. T
 
 A bag of words driven NLP (Natural Language Processing) model was developed, which was then used to develop link-up tables using Pandas in Python, which mimics the SQL query database and can be used to create datafiles and focus on the topics which were most impactful.
 ![Bag](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/NLP%20model.jpg)
+
+##### Sample Output
+![MaxOpenRate](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/top10_openrate.jpg)
+From the sample output, for the top 10 most impactful dates with the highest open rate, we can understand that there was a general sense of topics which were of most interest to the readers which drove the high open rates - "The topics with keywords related to energy storage, chemicals and energy were most popular"
+![MaxUnsubscribes](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/top10_unsubscribes.jpg)
