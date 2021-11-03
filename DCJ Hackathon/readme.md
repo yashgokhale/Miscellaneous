@@ -19,4 +19,7 @@ Another parameter of consideration is the click rate (amount of subscribers actu
 
 ### Natural Language Processing to get insights into topics
 ![News](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Top%2010.png) <br>
-The most clicked links of all the newsletters sent out till date is displayed. The top 10 links do not follow a regular pattern and thus, developing an NLP bag of words model is essential in understanding which topics are most insightful.
+The most clicked links of all the newsletters sent out till date is displayed. The top 10 links do not follow a regular pattern and thus, developing an NLP bag of words model is essential in understanding which topics are most insightful. <br>
+
+A bag of words driven NLP (Natural Language Processing) model was developed, which was then used to develop link-up tables using Pandas in Python, which mimics the SQL query database and can be used to create datafiles and focus on the topics which were most impactful.
+![Bag](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/NLP%20model.jpg)
