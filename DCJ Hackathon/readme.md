@@ -17,4 +17,6 @@ As confirmed by the above plot, it confirms the intuition that as the newsletter
 Another parameter of consideration is the click rate (amount of subscribers actualy clicking the link) is compared against the number of links in the newsletter. Upon plotting the two, it can be observed that two distinct clusters are formed, implying that the relationship between the number of links is not linear with the click rate. Thus, greater the number of links does not necessarily mean higher click rate. There is an optimum number of links (in combination with hour of the day, which could be 6 to 8 am, which would maximize the click rate). <br>
 ![Clustering](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Clusters.png)
 
-
+### Natural Language Processing to get insights into topics
+![News](https://github.com/yashgokhale/Miscellaneous/blob/master/DCJ%20Hackathon/images/Top%2010.png) <br>
+The most clicked links of all the newsletters sent out till date is displayed. The top 10 links do not follow a regular pattern and thus, developing an NLP bag of words model is essential in understanding which topics are most insightful.
